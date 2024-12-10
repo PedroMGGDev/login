@@ -25,7 +25,7 @@
                 hideLoading();  
 
                 if (user) {
-                    window.location.href = "../welcome.html"; 
+                    window.location.href = "../../../home.html"; 
                 }
             });
 
