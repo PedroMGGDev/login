@@ -20,7 +20,7 @@ function login() {
     firebase.auth().signInWithEmailAndPassword(email, password)
         .then((userCredential) => {
             console.log("Usuário logado com sucesso:", userCredential.user);
-            window.location.href = "home/home.html";
+            window.location.href = "ai/home.html";
         })
         .catch((error) => {
             console.error("Erro ao logar:", error.message);
@@ -143,7 +143,7 @@ function checkAuthentication() {
         hideLoading();  
 
         if (user) {
-            window.location.href = "home/home.html"; 
+            window.location.href = "ai/home.html"; 
         }
     });
 }
