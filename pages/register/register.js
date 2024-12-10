@@ -73,7 +73,7 @@
 
                 firebase.auth().createUserWithEmailAndPassword(email, password)
                     .then(() => {
-                        window.location.href = "../welcome.html"; 
+                        window.location.href = "../../../home.html"; 
                     })
                     .catch(error => {
                         alert(getErrorMessage(error));
